@@ -1,0 +1,336 @@
+/*cormorant for paragraph*/
+/*font-family: 'Cormorant Garamond', serif;*/
+/* playfair for headings and nav*/
+/*font-family: 'Playfair Display SC', serif;*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/*header css*/
+header {
+    width:1280px;
+}
+
+.logobox1{
+    background-color:#5E5747;
+    width: auto;
+    height: 140px;
+    margin:0 auto; 
+    
+}
+#logo{
+    margin-left:10px;
+    margin-top: 0px;
+}
+#middlepart{
+    float:left;
+    }
+
+.globalnav{
+    float:right;
+    margin-top: 105px;
+    width:470px;
+    background-color:#5E5747;
+  
+}
+
+
+.globalnav li {
+    font-family: 'Playfair Display SC', 'serif';
+    font-size: 20px;
+    float: left;
+    width:75px;
+    margin: 0px 20px;
+    list-style: none;
+    background-color:#5E5747;
+    display: inline-block;
+    text-align: center;
+    
+}
+.globalnav li a{
+    text-decoration: none;
+    color:#FFF9EB
+   
+}
+.globalnav li a:visited{
+    color:#F4DA9E;
+}
+.globalnav li a:hover{
+    text-decoration: underline;
+}
+
+
+/*main css*/
+main{
+    background-color: #F6DDCC;
+    width:1280px;
+}
+/* delete
+body {
+    background-color: #FFF9EB;
+}*/
+
+
+.title {
+   text-align: center;
+
+}
+
+#title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 45px;
+    color: black; 
+}
+
+#title2 {
+
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    color:#5E5747; 
+}
+
+
+.sidenav{
+    
+    background-image:url(flower.png);
+    background-size: 15px;
+    background-repeat:repeat;
+    float:left;
+    height:675px ;
+    width:130px;
+    
+   
+
+}
+
+/*
+.h3box{
+    background-color:#FFF9EB;
+    width:150px;
+    height:30px;
+    margin: 15px;
+}
+.sidenav li{
+    list-style: none;
+
+}
+.sidenav li a{
+    text-decoration: none;
+    color:#5E5747;
+   
+}
+.sidenav li a:visited{
+    color:#F4DA9E;
+}
+#bella, #jack, #ginger, #daisy{
+    font-family: 'Playfair Display SC', serif;
+    background-color: #FFF9EB;
+    width:100px;
+    height:30px;
+    text-align: center;
+    margin:40px;
+    border:1px solid #99865A;
+
+}*/
+/*.content{
+    background-color:red;
+    height:356px ;
+    
+    
+}*/
+
+/*changed height*/
+.content2{
+
+    background-color:#FFF9EB;
+    height:675px;
+    
+}
+
+
+#room,#teatable,#homecoffee,#catcup{
+border-radius:30px ;
+border:3px solid #5E5747;
+
+}
+#room{
+    float:left;
+    margin:15px 20px;
+    margin-right:20px;
+    margin-top: 25px;
+    
+}
+#teatable{
+    float:left;
+    margin:10px 0px;
+    margin-top: 25px;
+}
+#homecoffee{
+    float:left;
+    margin:10px 10px;
+    margin-top: 25px;
+}
+#catcup{
+    float:left;
+    margin:0 2px;
+
+}
+.sidenav2{
+    
+    background-image:url(flower.png);
+    background-size: 15px;
+    background-repeat:repeat;
+    float:right;
+    height:675px ;
+    width:125px;
+   
+
+}
+/*
+h3{
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    color:#5E5747;
+}
+
+#cat{
+    margin-left:80px;
+    margin-top:20px;
+    border-radius:50px;
+    float:left;
+}
+.middlepart p{
+    font-family: 'Cormorant Garamond', serif;
+    width:500px;
+    height:150px;
+    margin-top:30px; 
+    margin-bottom: 0px;
+    margin-left:120px;
+}
+.discription{
+background-color: #F4DA9E;
+float: left;
+width:300px;
+height:180px;
+margin:10px;
+margin-right:275px;
+}
+.discription li{
+    list-style: none;
+}*/
+
+
+
+
+
+
+/* footer css*/
+/* delete 
+margin-top: 200px;
+height:215px;
+*/
+.footer{
+    background-color:#5E5747;
+    width:1280px;
+   
+    
+}
+/*delete margin-top:25px;*/
+.socialmediabox{
+    background-color:#5E5747;
+    height:40px;
+    width:1080px;
+    margin-left: 200px;
+    margin-bottom: -20px;
+    
+    
+}
+
+#socialmedia li{
+   list-style: none;
+   width:75px;
+   margin: 10px 115px;
+   display: inline-flex;
+   text-align: center;
+   
+}
+.mediaicon{
+    background-color:#ffffff;
+    
+
+}
+#twitter{
+    border-radius:8px;
+}
+#facebook{
+    border-radius:5px;
+}
+#instagram{
+    border-radius:10px;
+    
+}
+.infobox{
+    font-family:'Playfair Display SC', serif;
+    color: #FFF9EB;
+    background-color:#5E5747;
+    height:75px;
+    width:1260px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+    
+}
+/*margin-right:250px;*/
+#location{
+    background-color: #5E5747;
+    width:170px;
+    float: left;
+    margin:20px 60px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right:250px;
+    
+    
+}
+
+/*changed margin-left: 25px;*/
+#email{
+    background-color: #5E5747;
+    width:220px;
+    float:left;
+    margin:20px 90px;
+    text-align: center;
+    margin-left: 25px;
+    padding-left: 30px;
+   
+}
+#phone{
+        background-color:#5E5747;
+        width:120px;
+        float: left;
+        margin:20px 80px;
+        text-align: center;
+        margin-left: 240px;
+        
+}
+
+.footerlogobox{
+    background-color:#5E5747;
+    width:1280px;
+    height:105px;
+    
+}
+/*changed
+margin-right: 125px;
+    margin-left: 125px;*/
+#footerlogo{
+    float:center;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-top: -10px; 
+    
+      
+}

@@ -1,0 +1,325 @@
+/*cormorant for paragraph*/
+/*font-family: 'Cormorant Garamond', serif;*/
+/* playfair for headings and nav*/
+/*font-family: 'Playfair Display SC', serif;*/
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+/*header css*/
+header {
+    width:1280px;
+}
+
+.logobox1{
+    background-color:#5E5747;
+    width: auto;
+    height: 140px;
+    margin:0 auto; 
+    
+}
+#logo{
+    margin-left:10px;
+    margin-top: 0px;
+}
+#middlepart{
+    float:left;
+    }
+
+.globalnav{
+    float:right;
+    margin-top: 105px;
+    width:470px;
+    background-color:#5E5747;
+  
+}
+
+
+.globalnav li {
+    font-family: 'Playfair Display SC', 'serif';
+    font-size: 20px;
+    float: left;
+    width:75px;
+    margin: 0px 20px;
+    list-style: none;
+    background-color:#5E5747;
+    display: inline-block;
+    text-align: center;
+    
+}
+.globalnav li a{
+    text-decoration: none;
+    color:#FFF9EB
+   
+}
+.globalnav li a:visited{
+    color:#F4DA9E;
+}
+.globalnav li a:hover{
+    text-decoration: underline;
+}
+
+
+/*main css*/
+
+
+/* add 
+background-color: #FFF9EB;
+    height:1100px ;
+    */
+main {
+    width: 1280px;
+    background-color: #FFF9EB;
+    height:1100px;
+    
+}
+
+/*
+body {
+    background-color: #FFF9EB;
+}*/
+.sidenav{
+    background-image:url(flower.png);
+    background-size: 15px;
+    background-repeat:repeat;
+    float:left;
+    height:1100px ;
+    width:250px;
+   
+}
+/* add
+    margin-top:10px;
+    height:50px;
+   delete
+    margin-bottom: 15px;
+    color: black;*/
+.h3box{
+    background-color:#FFF9EB;
+    width:150px;
+    height:50px;
+    margin-top:10px;
+    margin-left: 50px;
+    font-size: 30px;
+    
+}
+
+.sidenav li{
+    list-style: none;
+
+}
+.sidenav li a{
+    text-decoration: none;
+    color:#5E5747;  
+}
+/* chnged to background-color*/
+.sidenav li a:visited{
+    background-color:#F4DA9E;
+}
+
+
+
+#li1, #li2, #li3{
+    font-family: 'Playfair Display SC', serif;
+    background-color: #FFF9EB;
+    width:100px;
+    height:30px;
+    text-align: center;
+    margin: 70px;
+    margin-left:50px;
+    border:1px solid #99865A;
+    padding: 20px;
+
+}
+/* hided because this is only affect for li1, but not for all sidenav
+#li1 {
+    background-color: #F4DA9E;
+}*/
+
+/* add color: black;*/
+h3{
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    color: black;
+}
+
+.home-made {
+    position: relative;
+    text-align: center;
+    float: right;
+    margin-right: 120px;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+#title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 45px;
+    color: black;  
+    background-color: #F6DDCC;
+    padding: 20px;
+}
+
+img {
+    border-radius: 8px;
+  }
+
+   .column {
+    float: left;
+    width: 25%;
+    padding-left: 130px;
+    padding-top: 30px;
+    
+  
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+    
+  }
+
+
+  .text {
+     
+    width: 800px;
+    height:10px;
+    margin: 350px; 
+    margin-top: -500px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 30PX;
+   
+
+}
+
+.text2 {
+
+    width: 1000px;
+    height:10px;
+    margin: 350px; 
+    margin-left: 245px;
+    margin-top: -70px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    color:#5E5747;  
+    font-size: 25PX;
+    
+}
+
+/*
+#clink {
+    color: black;
+}*/
+
+
+/* footer css*/
+/* delete 
+margin-top: 200px;
+height:215px;
+*/
+.footer{
+    background-color:#5E5747;
+    width:1280px;
+   
+    
+}
+/*delete margin-top:25px;*/
+.socialmediabox{
+    background-color:#5E5747;
+    height:40px;
+    width:1080px;
+    margin-left: 200px;
+    margin-bottom: -20px;
+    
+    
+}
+
+#socialmedia li{
+   list-style: none;
+   width:75px;
+   margin: 10px 115px;
+   display: inline-flex;
+   text-align: center;
+   
+}
+.mediaicon{
+    background-color:#ffffff;
+    
+
+}
+#twitter{
+    border-radius:8px;
+}
+#facebook{
+    border-radius:5px;
+}
+#instagram{
+    border-radius:10px;
+    
+}
+.infobox{
+    font-family:'Playfair Display SC', serif;
+    color: #FFF9EB;
+    background-color:#5E5747;
+    height:75px;
+    width:1260px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+    
+}
+/*margin-right:250px;*/
+#location{
+    background-color: #5E5747;
+    width:170px;
+    float: left;
+    margin:20px 60px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right:250px;
+    
+    
+}
+#email{
+    background-color: #5E5747;
+    width:220px;
+    float:left;
+    margin:20px 90px;
+    text-align: center;
+    margin-left: 25px;
+    padding-left: 30px;
+   
+}
+#phone{
+        background-color:#5E5747;
+        width:120px;
+        float: left;
+        margin:20px 80px;
+        text-align: center;
+        margin-left: 240px;
+        
+}
+
+.footerlogobox{
+    background-color:#5E5747;
+    width:1280px;
+    height:105px;
+    
+}
+
+#footerlogo{
+    float:center;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-top: -10px; 
+      
+}
